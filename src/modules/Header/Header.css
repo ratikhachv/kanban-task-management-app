@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  position: relative;
+}
+.header-logo {
+  padding-inline: 1.5rem;
+}
+
+.header-logo__wrapper {
+  border: 1px solid #e4ebfa;
+  height: clamp(80px, 0.094vh, 96px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+

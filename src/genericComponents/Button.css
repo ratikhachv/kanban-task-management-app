@@ -1,0 +1,25 @@
+.custom-button {
+    border-radius: 20px;
+    width: 100%;
+    padding-block: 0.5rem;
+    outline: none;
+    border: none;
+}
+
+.grey {
+  background: rgba(99, 95, 199, 0.1);
+  color:#635FC7;
+}
+
+.grey:hover {
+  background-color: rgba(99, 95, 199, 0.25);
+}
+
+.blue{
+    background: #635FC7;
+    color:  #FFFFFF;;
+}
+
+.blue{
+    background: #A8A4FF;
+}

@@ -1,0 +1,12 @@
+.show-icon {
+  background: #635fc7;
+  border-radius: 0px 100px 100px 0px;
+  padding: 1.1rem;
+  position: absolute;
+  bottom: 2rem;
+}
+
+.show-icon:hover{
+    background: #A8A4FF;
+    cursor: pointer;
+}

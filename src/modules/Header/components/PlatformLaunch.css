@@ -1,0 +1,41 @@
+.platform-launch__wrapper {
+  padding-inline: 2rem;
+  border: 1px solid #e4ebfa;
+  height: clamp(80px, 0.094vh, 96px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 100%;
+}
+
+.platform-launch__wrapper p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000112;
+}
+
+.header-clickables {
+  display: flex;
+  align-items: center;
+}
+
+.header-clickables button {
+  background: #635fc7;
+  border-radius: 24px;
+  border: none;
+  padding-block: 0.5rem;
+  padding-inline: 1.2rem;
+  color: white;
+  margin-right: 1rem;
+}
+
+.header-clickables button:hover {
+  background: #a8a4ff;
+  cursor: pointer;
+}
+
+.header-clickables img{
+    cursor: pointer;
+}
