@@ -1,22 +1,18 @@
 import React from "react";
 
-// custom components
-import BoardsListLogo from "./components/BoardsListLogo";
-import AllBoards from "./components/AllBoards";
-import HideSideBar from "./components/HideSideBar";
-
 // css
-import './BoardsListTemplate.css'
+import "./BoardsListTemplate.css";
 
-export default function BoardsListsTemplate() {
+export default function BoardsListsTemplate(props) {
   return (
     <>
-    <aside>
-      <BoardsListLogo />
-      <AllBoards />
-      <HideSideBar />
-    </aside>
+      <aside style={{display:'flex', flexDirection:"column", justifyContent:"space-between", paddingBottom:"2rem"}}>
+        <div >
+          {props.BoardsListLogo}
+          {props.AllBoards}
+        </div>
+        {props.HideSideBar}
+      </aside>
     </>
-    
   );
 }

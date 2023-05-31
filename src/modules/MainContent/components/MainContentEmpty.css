@@ -1,0 +1,11 @@
+.main-content-empty {
+  flex-basis: 100%;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: #828fa3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

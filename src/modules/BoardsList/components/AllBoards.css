@@ -1,0 +1,18 @@
+.all-boards__wrapper {
+  padding-right: 20px;
+}
+
+.all-boards__heading__wrapper {
+  margin-top: 2rem;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  padding-left: 1.4rem;
+  line-height: 15px;
+  letter-spacing: 2.4px;
+  color: #828fa3;
+}
+
+.all-boards__heading__wrapper h6{
+    font-size: 12px;
+}

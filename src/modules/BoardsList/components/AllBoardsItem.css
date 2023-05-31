@@ -1,0 +1,28 @@
+.all-boards-item{
+    padding-block: 0.9rem;
+    width: 100%;
+    border-radius: 0px 100px 100px 0px;
+    color: #828FA3;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+
+
+
+.all-boards-item img{
+    margin-left: 1.4rem;
+    margin-right: 0.5rem;
+    fill: white;
+    /* vertical-align: top; */
+}
+
+.all-boards-item:hover{
+    background: #635FC7;
+    cursor: pointer;
+    color: white;
+}
+
+.all-boards-item img:hover{
+    fill: white;
+}

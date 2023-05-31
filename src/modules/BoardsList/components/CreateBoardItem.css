@@ -1,0 +1,19 @@
+.create-board-item img {
+  margin-left: 1.4rem;
+  margin-right: 0.5rem;
+  /* vertical-align: top; */
+}
+
+.create-board-item {
+  padding-block: 0.9rem;
+  width: 100%;
+  color: #2e29bc;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.create-board-item:hover{
+    font-weight: bold;
+    cursor: pointer;
+}

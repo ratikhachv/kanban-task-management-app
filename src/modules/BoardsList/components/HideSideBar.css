@@ -1,0 +1,15 @@
+.hide-sidebar{
+    margin-left: 1.4rem;
+    color: #828FA3;
+}
+
+.hide-sidebar img{
+    margin-right: 0.4rem;
+    transition: 0.3s;
+}
+
+.hide-sidebar:hover{
+    color: #2e29bc;
+    cursor: pointer;
+    font-weight: bold;
+}
