@@ -1,0 +1,25 @@
+.new-column__wrapper {
+  width: 280px;
+  background: linear-gradient(
+    180deg,
+    #e9effa 0%,
+    rgba(233, 239, 250, 0.5) 100%
+  );
+  border-radius: 6px;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #828fa3;
+  box-shadow: 0px 4px 6px rgba(54, 78, 126, 0.101545);
+  flex-shrink: 0;
+  transition: 0.3s;
+}
+
+.new-column__wrapper p:hover{
+  cursor: pointer;
+  color: #454950;
+}

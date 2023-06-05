@@ -2,6 +2,7 @@ import React from "react";
 
 // css
 import "./BoardsListTemplate.css";
+import ShowBoardsList from "./components/ShowBoardsList";
 
 export default function BoardsListsTemplate(props) {
   return (
@@ -13,6 +14,7 @@ export default function BoardsListsTemplate(props) {
         </div>
         {props.HideSideBar}
       </aside>
+      <ShowBoardsList/>
     </>
   );
 }

@@ -1,0 +1,12 @@
+.column__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 80vh;
+    overflow-y: scroll;
+    flex-shrink: 0;
+}
+
+.column__wrapper::-webkit-scrollbar {
+    display: none;
+  }

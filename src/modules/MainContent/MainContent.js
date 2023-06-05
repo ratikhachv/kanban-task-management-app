@@ -1,13 +1,15 @@
 import React from 'react'
 
-// components
-import MainContentEmpty from './components/MainContentEmpty'
-
 // css
 import './MainContent.css'
 
+// components
+import MainContentEmpty from './components/MainContentEmpty'
+import MainContentFull from './components/MainContentFull/MainContentFull'
+
 export default function MainContent() {
   return (
-    <MainContentEmpty/>
+    // <MainContentEmpty/>
+    <MainContentFull/>
   )
 }

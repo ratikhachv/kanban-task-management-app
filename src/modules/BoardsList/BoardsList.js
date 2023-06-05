@@ -1,7 +1,6 @@
 import React from "react";
 
 // custom components
-import ShowBoardsList from "./components/ShowBoardsList";
 import BoardsListTemplate from "./BoardsListTemplate";
 import BoardsListLogo from "./components/BoardsListLogo";
 import AllBoards from "./components/AllBoards";
