@@ -11,7 +11,7 @@ export default function BoardsList() {
     <>
       <BoardsListTemplate
         BoardsListLogo={<BoardsListLogo />}
-        AllBoards={<AllBoards />}
+        AllBoards={<AllBoards boardQuantity="3"/>}
         HideSideBar={<HideSideBar />}
       />
     </>

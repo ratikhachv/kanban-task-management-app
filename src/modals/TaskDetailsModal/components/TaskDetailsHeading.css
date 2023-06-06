@@ -1,0 +1,18 @@
+.task-heading__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.task-heading__wrapper p {
+  width: 80%;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000112;
+}
+
+.task-heading__wrapper img{
+    cursor: pointer;
+}

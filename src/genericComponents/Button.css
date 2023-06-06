@@ -4,6 +4,7 @@
     padding-block: 0.5rem;
     outline: none;
     border: none;
+    font-weight: 700;
 }
 
 .grey {
@@ -12,6 +13,7 @@
 }
 
 .grey:hover {
+  cursor: pointer;
   background-color: rgba(99, 95, 199, 0.25);
 }
 

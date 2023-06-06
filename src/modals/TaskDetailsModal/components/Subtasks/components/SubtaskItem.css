@@ -1,0 +1,22 @@
+.subtask__wrapper {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  background: #F4F7FD;
+  padding-block: 0.8rem;
+}
+
+.subtask__wrapper label {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000112;
+}
+
+.checked-subtask {
+  text-decoration-line: line-through;
+  mix-blend-mode: normal;
+  opacity: 0.5; 
+}

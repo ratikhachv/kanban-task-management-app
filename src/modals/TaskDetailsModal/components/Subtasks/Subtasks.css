@@ -1,0 +1,11 @@
+.subtasks__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.subtask-items__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}

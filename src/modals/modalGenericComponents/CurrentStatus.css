@@ -1,0 +1,16 @@
+.current-status__wrapper h4 {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #828fa3;
+  margin-bottom: 0.5rem;
+}
+
+.current-status__wrapper select {
+  width: 100%;
+  border: 1px solid rgba(130, 143, 163, 0.25);
+  border-radius: 4px;
+  padding-block: 0.5rem;
+  padding-inline: 1rem;
+  outline: none;
+}

@@ -1,0 +1,20 @@
+.add-new-item__wrapper {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.add-new-item__wrapper input {
+  flex-basis: 100%;
+  background: #ffffff;
+  border: 1px solid rgba(130, 143, 163, 0.25);
+  border-radius: 4px;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+}
+
+.add-new-item__wrapper img {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}

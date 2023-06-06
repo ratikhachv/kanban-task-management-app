@@ -1,0 +1,25 @@
+.description__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.description__wrapper label {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #828fa3;
+  margin-bottom: 0.5rem;
+}
+
+.description__wrapper textarea {
+  border: 1px solid rgba(130, 143, 163, 0.25);
+  border-radius: 4px;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  outline: none;
+  resize: none;
+}
+
+.description{
+  height: 115px;
+}
