@@ -7,12 +7,12 @@ import AddNewSectHeading from './components/AddNewSectHeading'
 import Button from '../../../genericComponents/Button'
 
 
-export default function AddNewSect() {
+export default function AddNewSect(props) {
   return (
     <AddNewSectTemplate
-        heading={<AddNewSectHeading heading='Subtasks'/>}
+        heading={<AddNewSectHeading heading={props.heading}/>}
         item={<AddNewItem/>}
-        button={<Button text="+ Create New Task"/>}
+        button={<Button text={props.text}/>}
     />
     )
 }

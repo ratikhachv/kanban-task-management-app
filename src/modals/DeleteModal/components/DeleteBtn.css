@@ -1,0 +1,16 @@
+.delete-modal__btn{
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.red{
+    background: #EA5555;
+    color: white;
+}
+
+.red:hover{
+    background: #FF9898;
+}

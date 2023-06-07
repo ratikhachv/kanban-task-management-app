@@ -1,0 +1,12 @@
+.delete-modal-content{
+    width: 480px;
+    background: #ffffff;
+    border-radius: 6px;
+    padding: 2rem;
+}
+
+.btns{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
