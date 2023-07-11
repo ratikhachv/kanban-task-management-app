@@ -1,12 +1,14 @@
-import React from 'react'
+import React from "react";
 
 // css
-import './NewColumn.css'
+import "./NewColumn.css";
 
 export default function NewColumn() {
   return (
-    <div className='new-column__wrapper'>
-      <p>+ New Column</p>
-    </div>
-  )
+    <>
+      <div className="new-column__wrapper">
+        <p>+ New Column</p>
+      </div>
+    </>
+  );
 }

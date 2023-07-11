@@ -7,14 +7,12 @@ import "./Subtasks.css";
 import SubtaskAmount from "./components/SubtaskAmount";
 import SubtaskItem from "./components/SubtaskItem";
 
-export default function Subtasks() {
+export default function Subtasks(props) {
   return (
     <div className="subtasks__wrapper">
-      <SubtaskAmount checkedSubtasks={2} totalSubtasks={3} />
+      <SubtaskAmount toDoSubtask={props.toDoSubtask} totalSubtasks={props.toDoSubtask} />
       <div className="subtask-items__wrapper">
-        <SubtaskItem subtaskName={"ragaca ragaca ragaca"} checked={true} />
-        <SubtaskItem subtaskName={"ragaca ragaca ragaca"} checked={true} />
-        <SubtaskItem subtaskName={"ragaca ragaca ragaca"} />
+        <SubtaskItem subtaskName={props.subtaskName} checked={props.checked} />
       </div>
     </div>
   );

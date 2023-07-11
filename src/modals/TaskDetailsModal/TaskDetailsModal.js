@@ -7,9 +7,10 @@ import TaskDescription from "./components/TaskDescription";
 import Subtasks from "./components/Subtasks/Subtasks";
 import CurrentStatus from "../modalGenericComponents/CurrentStatus";
 
-export default function TaskDetailsModal() {
+export default function TaskDetailsModal(props) {
   return (
-    <TaskDetailsTemplate
+    <TaskDetailsTemplate 
+    closeModal={props.closeModal}
       taskHeading={<TaskDetailsHeading taskName="aqet iqit, ragac rugac"/>}
       taskDescription={<TaskDescription description={"es aris es aris esesesesaris lalalalalala"}/>}
       subtasks={<Subtasks />}

@@ -5,6 +5,7 @@
   padding-inline: 1rem;
   padding-block: 1.3rem;
   width: 280px;
+  cursor: pointer;
 }
 
 .task__wrapper h4 {
@@ -12,6 +13,7 @@
   font-size: 15px;
   line-height: 19px;
   color: #000112;
+  
 }
 
 .task__wrapper p{
@@ -19,6 +21,5 @@
   font-size: 12px;
   line-height: 15px;
   color: #828fa3;
-  cursor: pointer;
   margin-top: 0.5rem;
 }

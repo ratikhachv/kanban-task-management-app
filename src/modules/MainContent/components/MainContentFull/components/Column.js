@@ -1,12 +1,14 @@
-import React from 'react'
+import React from "react";
 
-// components
-import Task from './components/Task'
-import ColumnTemplate from './ColumnTemplate'
-import TaskStatus from './components/TaskStatus'
+import './ColumnTemplate.css'
 
-export default function Column(props) {
+export default function ColumnTemplate(props) {
   return (
-    <ColumnTemplate status={<TaskStatus status="Doing" taskAmount="3"/>} task={<Task/>}/>
-  )
+    <div className="column__wrapper">
+      {props.status}
+      {props.task}
+      {props.task}
+      {props.task}
+    </div>
+  );
 }

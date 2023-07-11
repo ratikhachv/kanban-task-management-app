@@ -9,7 +9,6 @@ import MainContentFull from './components/MainContentFull/MainContentFull'
 
 export default function MainContent() {
   return (
-    // <MainContentEmpty/>
     <MainContentFull/>
   )
 }
