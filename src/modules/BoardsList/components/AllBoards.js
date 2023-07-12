@@ -13,8 +13,14 @@ export default function AllBoards(props) {
       <div className="all-boards__heading__wrapper">
         <h6>ALL BOARDS ({props.boardQuantity})</h6>
       </div>
-      <AllBoardsItem boardName={"Platform Lausdasdasdasd asdanch"} />
-      <AllBoardsItem boardName={"Platform Launch"} />
+      {props.boards &&
+        props.boards.map((el) => (
+          <AllBoardsItem
+            boardName={el.name}
+            key={el.name}
+            selectBoard={props.selectBoard}
+          />
+        ))}
       <CreateBoardItem />
     </div>
   );

@@ -11,7 +11,7 @@ import Subtasks from "../../../../../../modals/TaskDetailsModal/components/Subta
 import CurrentStatus from "../../../../../../modals/modalGenericComponents/CurrentStatus";
 
 
-export default function TaskTemplate(props) {
+export default function Task(props) {
   const [Modal, openModal] = useModal();
 
   return (
@@ -28,10 +28,9 @@ export default function TaskTemplate(props) {
         <Subtasks
           toDoSubtask={props.toDoSubtask}
           totalSubtasks={props.totalSubtasks}
-          subtaskName={props.subtaskName}
-          checked={props.checked}
+          subtaskItem={props.subtaskItem}
         />
-        <CurrentStatus heading={"current status"}/>
+        <CurrentStatus heading={"current status"} status={props.status}/>
       </Modal>
     </>
   );
